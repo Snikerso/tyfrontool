@@ -8,13 +8,18 @@ const StyledWrapper = styled.div`
 `;
 
 const Navigation = () => {
-  const { setToolType } = useContext(ToolContext);
+  const { toolType, setToolType } = useContext(ToolContext);
   return (
     <StyledWrapper>
       <NavLink to="/announcements">Ogłoszenia</NavLink>
       <div>Forum Cogito</div>
       <div>Forum Cognition</div>
-      <button onClick={() => setToolType('ART')}>ChangeTool</button>
+      {toolType === 'ART' && (
+        <button onClick={() => setToolType('SCIENCE')}>ChangeTool</button>
+      )}
+      {toolType === 'SCIENCE' && (
+        <button onClick={() => setToolType('ART')}>ChangeTool</button>
+      )}
     </StyledWrapper>
   );
 };

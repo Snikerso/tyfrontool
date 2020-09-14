@@ -7,7 +7,11 @@ function ArtToolBubble() {
   return (
     <Switch>
       <Route exact path="/" component={HomePage} />
-      <Route exact path="/announcements" component={AnnouncementPage} />
+      <Route
+        exact
+        path="/announcements"
+        render={() => <AnnouncementPage toolType="SCIENCE" />}
+      />
     </Switch>
   );
 }

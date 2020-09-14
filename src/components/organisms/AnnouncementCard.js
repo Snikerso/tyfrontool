@@ -1,8 +1,9 @@
-import React, { useState } from 'react';
+import React, { useContext, useState } from 'react';
 import { useQuery } from 'react-query';
 import styled from 'styled-components';
 import axios from 'axios';
 import { MetaIcon } from 'components/molecules/MetaIcons';
+import { ToolContext } from '../../contexts/ToolContext';
 
 const StyledWrapper = styled.div`
   position: relative;
@@ -40,6 +41,7 @@ const AnnouncementAuthor = styled.h5``;
 
 function AnnouncementCard() {
   const [modalMetaIcon, setModalMetaIcon] = useState();
+  const { toolType } = useContext(ToolContext);
 
   const handleOpenModalMetaIcon = (e) => {
     let modalName = e.currentTarget.getAttribute('name');
@@ -72,7 +74,9 @@ function AnnouncementCard() {
           var d = new Date(item.createAt);
           return (
             <StyledWrapperAnnounce key={item.id}>
-              <AnnouncementHead>{item.title}</AnnouncementHead>
+              <AnnouncementHead>
+                {item.title} {toolType}
+              </AnnouncementHead>
 
               <AnnouncementAuthor>Author: {item.author}</AnnouncementAuthor>
 

@@ -7,7 +7,11 @@ function ScienceToolBubble() {
   return (
     <Switch>
       <Route exact path="/" render={() => <HomePage />} />
-      <Route exact path="/announcements" render={() => <AnnouncementPage />} />
+      <Route
+        exact
+        path="/announcements"
+        render={() => <AnnouncementPage toolType="ART" />}
+      />
     </Switch>
   );
 }
