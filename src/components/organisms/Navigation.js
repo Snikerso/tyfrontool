@@ -5,21 +5,26 @@ import { ToolContext } from 'contexts/ToolContext';
 
 const StyledWrapper = styled.div`
   display: flex;
+  width: 350px;
+  align-items: center;
+  justify-content: space-between;
+`;
+const StyledFunctionButton = styled.div`
+  padding: 2px 4px;
+  border: 1px solid black;
 `;
 
 const Navigation = () => {
   const { toolType, setToolType } = useContext(ToolContext);
   return (
     <StyledWrapper>
-      <NavLink to="/announcements">Ogłoszenia</NavLink>
-      <div>Forum Cogito</div>
-      <div>Forum Cognition</div>
-      {toolType === 'ART' && (
-        <button onClick={() => setToolType('SCIENCE')}>ChangeTool</button>
-      )}
-      {toolType === 'SCIENCE' && (
-        <button onClick={() => setToolType('ART')}>ChangeTool</button>
-      )}
+      <StyledFunctionButton>
+        <NavLink to="/announcements">Ogłoszenia</NavLink>
+      </StyledFunctionButton>
+
+      <StyledFunctionButton>Forum Cogito</StyledFunctionButton>
+
+      <StyledFunctionButton>Forum Cognition</StyledFunctionButton>
     </StyledWrapper>
   );
 };

@@ -1,17 +1,20 @@
 import React, { useContext } from 'react';
 import styled from 'styled-components';
 import { ToolContext } from 'contexts/ToolContext';
-import Navigation from 'components/organisms/Navigation';
+import Header from 'components/organisms/Header';
 
 const StyledWrapper = styled.div`
   display: grid;
   grid-template-columns: 1fr;
 `;
-
-const Header = styled.header`
-  width: 100vw;
-  height: 60px;
-  border-bottom: 1px solid black;
+const StyledWrapperMain = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  width: 800px;
+  margin: 0 auto;
 `;
 
 function AuthenticatedTemplate({ children }) {
@@ -19,12 +22,8 @@ function AuthenticatedTemplate({ children }) {
   return (
     <>
       <StyledWrapper>
-        <Header>
-          {toolType == 'SCIENCE' ? <h1>ScienceTool</h1> : <h1>ArtTool</h1>}
-
-          <Navigation />
-        </Header>
-        <main>{children}</main>
+        <Header />
+        <StyledWrapperMain>{children}</StyledWrapperMain>
       </StyledWrapper>
     </>
   );

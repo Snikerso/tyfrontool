@@ -6,12 +6,11 @@ import { MetaIcon } from 'components/molecules/MetaIcons';
 import { ToolContext } from '../../contexts/ToolContext';
 
 const StyledWrapper = styled.div`
-  position: relative;
   display: grid;
-  justify-content: center;
+  width: 100%;
+  grid-template-columns: 1fr;
   justify-items: center;
-  grid-template-columns: 1fr 1fr;
-  margin: 30px;
+  align-content: center;
 `;
 const StyledWrapperAnnounce = styled.div`
   position: relative;

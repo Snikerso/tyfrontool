@@ -9,7 +9,7 @@ const AuthenticatedApp = React.lazy(() => import('./AuthenticatedApp'));
 const UnauthenticatedApp = React.lazy(() => import('./UnauthenticatedApp'));
 
 function App() {
-  const [user, setUser] = useState(false);
+  const [user, setUser] = useState(true);
   const [toolType, setToolType] = useState('SCIENCE');
 
   return (
