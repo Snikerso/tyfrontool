@@ -1,0 +1,23 @@
+<svg width="102" height="114" viewBox="0 0 102 114" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filterD_fill)">
+<path d="M29.1562 94.3906V20.0938H38.7656C50.5365 20.0938 58.9219 22.8802 63.9219 28.4531C68.9219 33.974 71.4219 43.5833 71.4219 57.2812C71.4219 66.6562 70.276 74.0521 67.9844 79.4688C65.6927 84.8333 62.151 88.6615 57.3594 90.9531C52.6198 93.2448 46.1875 94.3906 38.0625 94.3906H29.1562ZM14.9375 114H39.4688C59.8854 114 75.3281 109.286 85.7969 99.8594C96.3177 90.3802 101.578 76.4219 101.578 57.9844C101.578 38.974 96.1354 24.625 85.25 14.9375C74.3646 5.19792 58.349 0.328125 37.2031 0.328125H20.4062C13.1667 0.328125 8.0625 2.02083 5.09375 5.40625C2.17708 8.79167 0.71875 14.4427 0.71875 22.3594V92.125C0.71875 96.0833 1.08333 99.599 1.8125 102.672C2.59375 105.745 4.07812 108.401 6.26562 110.641C8.50521 112.88 11.3958 114 14.9375 114Z" fill="#D264B6"/>
+</g>
+<defs>
+<filter id="filterD_fill" x="-9.28125" y="-9.67188" width="120.859" height="133.672" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dx="-10" dy="-10"/>
+<feGaussianBlur stdDeviation="5"/>
+<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.823529 0 0 0 0 0.392157 0 0 0 0 0.713726 0 0 0 0.8 0"/>
+<feBlend mode="normal" in2="shape" result="effect1_innerShadow"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dx="10" dy="10"/>
+<feGaussianBlur stdDeviation="5"/>
+<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.5 0"/>
+<feBlend mode="normal" in2="effect1_innerShadow" result="effect2_innerShadow"/>
+</filter>
+</defs>
+</svg>

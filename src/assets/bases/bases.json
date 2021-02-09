@@ -1,0 +1,22 @@
+{
+    "bases":[
+        {   "id":1,
+            "basename":"Podróże",
+            "description":"Baza z słówkami na temat podróży",
+            "fromLanguage":"PL",
+            "toLanguage":"ENG",
+            "createdAt":20.02,
+            "updatedAt":20.02,
+
+            "words":[
+                {
+                    "id":1,
+                    "word":"arrive",
+                    "translate":"przyjechać",
+                    "description":"nanana",
+                    "association":"z meksyku"
+                }
+        ]}
+    ]
+  
+}

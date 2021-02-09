@@ -1,0 +1,17 @@
+<svg width="91" height="149" viewBox="0 0 91 149" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filterZz_empy)">
+<path d="M76.865 125.96C81.5583 125.96 85.025 126.867 87.265 128.68C89.6117 130.493 90.785 133.373 90.785 137.32C90.785 141.373 89.665 144.36 87.425 146.28C85.185 148.093 81.665 149 76.865 149H12.865C8.91833 149 5.77167 147.827 3.425 145.48C1.185 143.133 0.0650003 140.2 0.0650003 136.68C0.0650003 133.16 1.29167 129.693 3.745 126.28L53.025 59.24H14.305C9.505 59.24 5.93167 58.3333 3.585 56.52C1.345 54.6 0.225 51.72 0.225 47.88C0.225 43.8267 1.345 40.8933 3.585 39.08C5.93167 37.16 9.505 36.2 14.305 36.2H75.745C79.585 36.2 82.625 37.3733 84.865 39.72C87.2117 41.96 88.385 44.84 88.385 48.36C88.385 51.9867 87.1583 55.5067 84.705 58.92L35.425 125.96H76.865ZM47.425 26.76C46.465 27.1867 45.3983 27.4 44.225 27.4C42.4117 27.4 40.865 26.8133 39.585 25.64C38.305 24.4667 37.665 23.08 37.665 21.48C37.665 19.88 38.465 18.28 40.065 16.68L53.025 4.51999C55.7983 1.85333 58.6783 0.519995 61.665 0.519995C64.4383 0.519995 66.785 1.53333 68.705 3.55999C70.7317 5.58666 71.745 7.93332 71.745 10.6C71.745 14.6533 69.345 17.8 64.545 20.04L47.425 26.76Z" fill="#F4F4F4"/>
+</g>
+<defs>
+<filter id="filterZz_empy" x="0.0649414" y="0.52002" width="90.72" height="153.65" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="5.17021"/>
+<feGaussianBlur stdDeviation="2.58511"/>
+<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.431786 0 0 0 0 0.437134 0 0 0 0 0.437457 0 0 0 0.75 0"/>
+<feBlend mode="normal" in2="shape" result="effect1_innerShadow"/>
+</filter>
+</defs>
+</svg>

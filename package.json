@@ -1,5 +1,5 @@
 {
-  "name": "frontend",
+  "name": "Wordtito",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -8,23 +8,30 @@
     "@types/jest": "^24.9.1",
     "@types/node": "^12.12.54",
     "@types/react-dom": "^16.9.8",
+    "@types/styled-components": "^5.1.7",
     "axios": "^0.20.0",
+    "d3": "^6.3.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-hook-form": "^6.11.4",
     "react-icons": "^3.11.0",
-    "react-query": "^2.12.1",
+    "react-modal": "^3.12.1",
+    "react-query": "^2.26.3",
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.3",
     "react-test-renderer": "^16.13.1",
-    "styled-components": "^5.1.1",
-    "typescript": "^3.7.5"
+    "styled-components": "^5.2.1",
+    "typescript": "^3.7.5",
+    "use-sound": "^2.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "lint": "eslint --ext .js,.jsx,.ts,.tsx src --color"
+    "lint": "eslint --ext .js,.jsx,.ts,.tsx src --color",
+    "storybook": "start-storybook -p 6006 -s public",
+    "build-storybook": "build-storybook -s public"
   },
   "browserslist": {
     "production": [
@@ -39,6 +46,12 @@
     ]
   },
   "devDependencies": {
+    "@storybook/addon-actions": "^6.1.17",
+    "@storybook/addon-essentials": "^6.1.17",
+    "@storybook/addon-links": "^6.1.17",
+    "@storybook/node-logger": "^6.1.17",
+    "@storybook/preset-create-react-app": "^3.1.5",
+    "@storybook/react": "^6.1.17",
     "@testing-library/react": "^9.5.0",
     "@types/react": "^16.9.49",
     "@typescript-eslint/eslint-plugin": "^4.1.0",
@@ -52,6 +65,8 @@
     "eslint-plugin-prettier": "^3.1.4",
     "eslint-plugin-react": "^7.20.6",
     "eslint-plugin-react-hooks": "^4.0.0",
+    "jest-dom": "^4.0.0",
     "prettier": "^2.1.1"
-  }
+  },
+  "proxy": "http://localhost:8000"
 }
